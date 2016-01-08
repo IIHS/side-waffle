@@ -55,6 +55,16 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptCustomElement\icon.png" />
+    <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptCustomElement\element.html" />
+    <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptDialogView\Definitions\CSharp.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptDialogView\Definitions\Web.csharp.vstemplate">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptDialogView\icon.png" />
+    <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptDialogView\view.html" />
     <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptView\icon.png" />
     <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptView\view.html" />
     <Content Include="loading.gif" />
@@ -126,6 +136,12 @@
     <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptView\Definitions\CSharp.vstemplate">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptCustomElement\Definitions\CSharp.vstemplate" />
+    <None Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptCustomElement\Definitions\VB.vstemplat-" />
+    <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptCustomElement\Definitions\Web.csharp.vstemplate" />
+    <None Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptCustomElement\Definitions\Web.VB.vstemplat-" />
+    <None Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptDialogView\Definitions\VB.vstemplat-" />
+    <None Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptDialogView\Definitions\Web.VB.vstemplat-" />
     <None Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptView\Definitions\VB.vstemplat-" />
     <Content Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptView\Definitions\Web.csharp.vstemplate">
       <SubType>Designer</SubType>
@@ -1165,6 +1181,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptCustomElement\element.ts" />
+    <TypeScriptCompile Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptDialogView\view.ts" />
     <TypeScriptCompile Include="ItemTemplates\Web\JavaScript\Aurelia\TypescriptView\view.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
