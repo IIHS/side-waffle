@@ -13,8 +13,8 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem ReplaceParameters="true" TargetFileName="$itemname$.html">view.html</ProjectItem>
-    <ProjectItem ReplaceParameters="true" TargetFileName="$itemname$.ts">view.ts</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.html">view.html</ProjectItem>
+    <ProjectItem ReplaceParameters="true" TargetFileName="$safeitemname$.ts">view.ts</ProjectItem>
     <CustomParameters>
       <CustomParameter Name="$TemplateName$" Value="Aurelia Typescript View" />
       <CustomParameter Name="$TemplateID$" Value="F7522FE8-9E8E-4D34-95D0-ECA05A6C2C78" />
